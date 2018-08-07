@@ -11,12 +11,12 @@ public abstract class Factory {
     }
 
     /**
-     * 留给子类来实现
+     * 创建产品. 留给子类来实现
      */
     protected abstract Product createProduct(String owner);
 
     /**
-     * 留给子类来实现
+     * 注册产品. 留给子类来实现
      */
     protected abstract void registerProduct(Product p);
 
