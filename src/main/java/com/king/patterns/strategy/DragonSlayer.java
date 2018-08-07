@@ -9,7 +9,6 @@ public class DragonSlayer {
      */
     private DragonSlayingStrategy strategy;
 
-
     /**
      * 如果是空参构造器, 那么赋上一个默认的策略
      */
