@@ -5,14 +5,14 @@ package com.king.patterns.iterator;
  * CatGroup是Cat的集合, 一个CatGroup实例代表一群猫.
  */
 public class Cat {
-    private int    age;
+    private int age;
     private String name;
- 
+
     public Cat(String name, int age) {
         this.age = age;
         this.name = name;
     }
- 
+
     @Override
     public String toString() {
         return "Cat{" +
